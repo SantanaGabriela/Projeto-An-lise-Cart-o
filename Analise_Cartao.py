@@ -60,23 +60,23 @@ def visualiza_dados_gabriela():
     
     if mes_selecionado == "Junho":
         #st.write(f'Valor Total Gasto :R$ {valor_total_gasto_jun:.2f}')
-        fig = px.bar(gasto_categoria_gabriela_junho, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+        fig = px.bar(gasto_categoria_gabriela_junho, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
         st.plotly_chart(fig)
 
     elif mes_selecionado == "Maio":
-       fig = px.bar(gasto_categoria_gabriela_maio, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+       fig = px.bar(gasto_categoria_gabriela_maio, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
        st.plotly_chart(fig)
     elif mes_selecionado == "Abril":
-        fig = px.bar(gasto_categoria_gabriela_abril, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+        fig = px.bar(gasto_categoria_gabriela_abril, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
         st.plotly_chart(fig)
     elif mes_selecionado == "Março":
-         fig = px.bar(gasto_categoria_gabriela_marco, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+         fig = px.bar(gasto_categoria_gabriela_marco, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
          st.plotly_chart(fig)
     elif mes_selecionado == "Fevereiro":
-         fig = px.bar(gasto_categoria_gabriela_fevereiro, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+         fig = px.bar(gasto_categoria_gabriela_fevereiro, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
          st.plotly_chart(fig)
     elif mes_selecionado == "Janeiro":
-         fig = px.bar(gasto_categoria_gabriela_janeiro, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+         fig = px.bar(gasto_categoria_gabriela_janeiro, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
          st.plotly_chart(fig)
 
 def visualiza_dados_eduardo():
@@ -85,23 +85,23 @@ def visualiza_dados_eduardo():
     
     if mes_selecionado == "Junho":
         #st.write(f'Valor Total Gasto :R$ {valor_total_gasto_jun:.2f}')
-        fig = px.bar(gasto_categoria_eduardo_junho, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+        fig = px.bar(gasto_categoria_eduardo_junho, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
         st.plotly_chart(fig)
 
     elif mes_selecionado == "Maio":
-       fig = px.bar(gasto_categoria_eduardo_maio, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+       fig = px.bar(gasto_categoria_eduardo_maio, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
        st.plotly_chart(fig)
     elif mes_selecionado == "Abril":
-        fig = px.bar(gasto_categoria_eduardo_abril, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+        fig = px.bar(gasto_categoria_eduardo_abril, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
         st.plotly_chart(fig)
     elif mes_selecionado == "Março":
-         fig = px.bar(gasto_categoria_eduardo_abril, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+         fig = px.bar(gasto_categoria_eduardo_abril, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
          st.plotly_chart(fig)
     elif mes_selecionado == "Fevereiro":
-         fig = px.bar(gasto_categoria_eduardo_fevereiro, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+         fig = px.bar(gasto_categoria_eduardo_fevereiro, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
          st.plotly_chart(fig)
     elif mes_selecionado == "Janeiro":
-         fig = px.bar(gasto_categoria_eduardo_janeiro, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}')
+         fig = px.bar(gasto_categoria_eduardo_janeiro, x='categoria', y='ValorCompra', title=f'Gastos por Categoria em {mes_selecionado}',color='categoria', color_discrete_sequence=px.colors.qualitative.Pastel)
          st.plotly_chart(fig)
 
 
